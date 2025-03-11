@@ -4,8 +4,12 @@
   "description": "NodeJS Playground - Where we do a lot of NodeJS related experiments",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx ts-node src/index.ts"
   },
   "author": "Darshan",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
 }
